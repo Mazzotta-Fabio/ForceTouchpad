@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		280DD09B1ED7378000B5F9D8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 280DD09A1ED7378000B5F9D8 /* AppDelegate.swift */; };
+		280DD09D1ED7378000B5F9D8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 280DD09C1ED7378000B5F9D8 /* ViewController.swift */; };
+		280DD0A01ED7378000B5F9D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 280DD09E1ED7378000B5F9D8 /* Main.storyboard */; };
+		280DD0A21ED7378000B5F9D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 280DD0A11ED7378000B5F9D8 /* Assets.xcassets */; };
+		280DD0A51ED7378000B5F9D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 280DD0A31ED7378000B5F9D8 /* LaunchScreen.storyboard */; };
+		280DD0B01ED7378000B5F9D8 /* TouchPadIOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 280DD0AF1ED7378000B5F9D8 /* TouchPadIOSTests.swift */; };
+		280DD0BB1ED7378000B5F9D8 /* TouchPadIOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 280DD0BA1ED7378000B5F9D8 /* TouchPadIOSUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		280DD0AC1ED7378000B5F9D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 280DD08F1ED7378000B5F9D8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 280DD0961ED7378000B5F9D8;
+			remoteInfo = TouchPadIOS;
+		};
+		280DD0B71ED7378000B5F9D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 280DD08F1ED7378000B5F9D8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 280DD0961ED7378000B5F9D8;
+			remoteInfo = TouchPadIOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		280DD0971ED7378000B5F9D8 /* TouchPadIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TouchPadIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		280DD09A1ED7378000B5F9D8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		280DD09C1ED7378000B5F9D8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		280DD09F1ED7378000B5F9D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		280DD0A11ED7378000B5F9D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		280DD0A41ED7378000B5F9D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		280DD0A61ED7378000B5F9D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		280DD0AB1ED7378000B5F9D8 /* TouchPadIOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TouchPadIOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		280DD0AF1ED7378000B5F9D8 /* TouchPadIOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchPadIOSTests.swift; sourceTree = "<group>"; };
+		280DD0B11ED7378000B5F9D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		280DD0B61ED7378000B5F9D8 /* TouchPadIOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TouchPadIOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		280DD0BA1ED7378000B5F9D8 /* TouchPadIOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchPadIOSUITests.swift; sourceTree = "<group>"; };
+		280DD0BC1ED7378000B5F9D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		280DD0941ED7378000B5F9D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		280DD0A81ED7378000B5F9D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		280DD0B31ED7378000B5F9D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		280DD08E1ED7378000B5F9D8 = {
+			isa = PBXGroup;
+			children = (
+				280DD0991ED7378000B5F9D8 /* TouchPadIOS */,
+				280DD0AE1ED7378000B5F9D8 /* TouchPadIOSTests */,
+				280DD0B91ED7378000B5F9D8 /* TouchPadIOSUITests */,
+				280DD0981ED7378000B5F9D8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		280DD0981ED7378000B5F9D8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				280DD0971ED7378000B5F9D8 /* TouchPadIOS.app */,
+				280DD0AB1ED7378000B5F9D8 /* TouchPadIOSTests.xctest */,
+				280DD0B61ED7378000B5F9D8 /* TouchPadIOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		280DD0991ED7378000B5F9D8 /* TouchPadIOS */ = {
+			isa = PBXGroup;
+			children = (
+				280DD09A1ED7378000B5F9D8 /* AppDelegate.swift */,
+				280DD09C1ED7378000B5F9D8 /* ViewController.swift */,
+				280DD09E1ED7378000B5F9D8 /* Main.storyboard */,
+				280DD0A11ED7378000B5F9D8 /* Assets.xcassets */,
+				280DD0A31ED7378000B5F9D8 /* LaunchScreen.storyboard */,
+				280DD0A61ED7378000B5F9D8 /* Info.plist */,
+			);
+			path = TouchPadIOS;
+			sourceTree = "<group>";
+		};
+		280DD0AE1ED7378000B5F9D8 /* TouchPadIOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				280DD0AF1ED7378000B5F9D8 /* TouchPadIOSTests.swift */,
+				280DD0B11ED7378000B5F9D8 /* Info.plist */,
+			);
+			path = TouchPadIOSTests;
+			sourceTree = "<group>";
+		};
+		280DD0B91ED7378000B5F9D8 /* TouchPadIOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				280DD0BA1ED7378000B5F9D8 /* TouchPadIOSUITests.swift */,
+				280DD0BC1ED7378000B5F9D8 /* Info.plist */,
+			);
+			path = TouchPadIOSUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		280DD0961ED7378000B5F9D8 /* TouchPadIOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 280DD0BF1ED7378000B5F9D8 /* Build configuration list for PBXNativeTarget "TouchPadIOS" */;
+			buildPhases = (
+				280DD0931ED7378000B5F9D8 /* Sources */,
+				280DD0941ED7378000B5F9D8 /* Frameworks */,
+				280DD0951ED7378000B5F9D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TouchPadIOS;
+			productName = TouchPadIOS;
+			productReference = 280DD0971ED7378000B5F9D8 /* TouchPadIOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		280DD0AA1ED7378000B5F9D8 /* TouchPadIOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 280DD0C21ED7378000B5F9D8 /* Build configuration list for PBXNativeTarget "TouchPadIOSTests" */;
+			buildPhases = (
+				280DD0A71ED7378000B5F9D8 /* Sources */,
+				280DD0A81ED7378000B5F9D8 /* Frameworks */,
+				280DD0A91ED7378000B5F9D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				280DD0AD1ED7378000B5F9D8 /* PBXTargetDependency */,
+			);
+			name = TouchPadIOSTests;
+			productName = TouchPadIOSTests;
+			productReference = 280DD0AB1ED7378000B5F9D8 /* TouchPadIOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		280DD0B51ED7378000B5F9D8 /* TouchPadIOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 280DD0C51ED7378000B5F9D8 /* Build configuration list for PBXNativeTarget "TouchPadIOSUITests" */;
+			buildPhases = (
+				280DD0B21ED7378000B5F9D8 /* Sources */,
+				280DD0B31ED7378000B5F9D8 /* Frameworks */,
+				280DD0B41ED7378000B5F9D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				280DD0B81ED7378000B5F9D8 /* PBXTargetDependency */,
+			);
+			name = TouchPadIOSUITests;
+			productName = TouchPadIOSUITests;
+			productReference = 280DD0B61ED7378000B5F9D8 /* TouchPadIOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		280DD08F1ED7378000B5F9D8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Fabio Mazzotta";
+				TargetAttributes = {
+					280DD0961ED7378000B5F9D8 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					280DD0AA1ED7378000B5F9D8 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 280DD0961ED7378000B5F9D8;
+					};
+					280DD0B51ED7378000B5F9D8 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 280DD0961ED7378000B5F9D8;
+					};
+				};
+			};
+			buildConfigurationList = 280DD0921ED7378000B5F9D8 /* Build configuration list for PBXProject "TouchPadIOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 280DD08E1ED7378000B5F9D8;
+			productRefGroup = 280DD0981ED7378000B5F9D8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				280DD0961ED7378000B5F9D8 /* TouchPadIOS */,
+				280DD0AA1ED7378000B5F9D8 /* TouchPadIOSTests */,
+				280DD0B51ED7378000B5F9D8 /* TouchPadIOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		280DD0951ED7378000B5F9D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				280DD0A51ED7378000B5F9D8 /* LaunchScreen.storyboard in Resources */,
+				280DD0A21ED7378000B5F9D8 /* Assets.xcassets in Resources */,
+				280DD0A01ED7378000B5F9D8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		280DD0A91ED7378000B5F9D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		280DD0B41ED7378000B5F9D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		280DD0931ED7378000B5F9D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				280DD09D1ED7378000B5F9D8 /* ViewController.swift in Sources */,
+				280DD09B1ED7378000B5F9D8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		280DD0A71ED7378000B5F9D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				280DD0B01ED7378000B5F9D8 /* TouchPadIOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		280DD0B21ED7378000B5F9D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				280DD0BB1ED7378000B5F9D8 /* TouchPadIOSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		280DD0AD1ED7378000B5F9D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 280DD0961ED7378000B5F9D8 /* TouchPadIOS */;
+			targetProxy = 280DD0AC1ED7378000B5F9D8 /* PBXContainerItemProxy */;
+		};
+		280DD0B81ED7378000B5F9D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 280DD0961ED7378000B5F9D8 /* TouchPadIOS */;
+			targetProxy = 280DD0B71ED7378000B5F9D8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		280DD09E1ED7378000B5F9D8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				280DD09F1ED7378000B5F9D8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		280DD0A31ED7378000B5F9D8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				280DD0A41ED7378000B5F9D8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		280DD0BD1ED7378000B5F9D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		280DD0BE1ED7378000B5F9D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		280DD0C01ED7378000B5F9D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TouchPadIOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Fabio-Mazzotta.TouchPadIOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		280DD0C11ED7378000B5F9D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TouchPadIOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Fabio-Mazzotta.TouchPadIOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		280DD0C31ED7378000B5F9D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TouchPadIOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Fabio-Mazzotta.TouchPadIOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TouchPadIOS.app/TouchPadIOS";
+			};
+			name = Debug;
+		};
+		280DD0C41ED7378000B5F9D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TouchPadIOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Fabio-Mazzotta.TouchPadIOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TouchPadIOS.app/TouchPadIOS";
+			};
+			name = Release;
+		};
+		280DD0C61ED7378000B5F9D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = TouchPadIOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Fabio-Mazzotta.TouchPadIOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = TouchPadIOS;
+			};
+			name = Debug;
+		};
+		280DD0C71ED7378000B5F9D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = TouchPadIOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Fabio-Mazzotta.TouchPadIOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = TouchPadIOS;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		280DD0921ED7378000B5F9D8 /* Build configuration list for PBXProject "TouchPadIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				280DD0BD1ED7378000B5F9D8 /* Debug */,
+				280DD0BE1ED7378000B5F9D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		280DD0BF1ED7378000B5F9D8 /* Build configuration list for PBXNativeTarget "TouchPadIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				280DD0C01ED7378000B5F9D8 /* Debug */,
+				280DD0C11ED7378000B5F9D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		280DD0C21ED7378000B5F9D8 /* Build configuration list for PBXNativeTarget "TouchPadIOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				280DD0C31ED7378000B5F9D8 /* Debug */,
+				280DD0C41ED7378000B5F9D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		280DD0C51ED7378000B5F9D8 /* Build configuration list for PBXNativeTarget "TouchPadIOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				280DD0C61ED7378000B5F9D8 /* Debug */,
+				280DD0C71ED7378000B5F9D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 280DD08F1ED7378000B5F9D8 /* Project object */;
+}
