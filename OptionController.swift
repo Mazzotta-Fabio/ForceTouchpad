@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  OptionController.swift
 //  TouchPadIOS
 //
 //  Created by Fabio Mazzotta on 26/05/17.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class OptionController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
