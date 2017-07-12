@@ -8,12 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		280DD09B1ED7378000B5F9D8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 280DD09A1ED7378000B5F9D8 /* AppDelegate.swift */; };
-		280DD09D1ED7378000B5F9D8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 280DD09C1ED7378000B5F9D8 /* ViewController.swift */; };
 		280DD0A01ED7378000B5F9D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 280DD09E1ED7378000B5F9D8 /* Main.storyboard */; };
-		280DD0A21ED7378000B5F9D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 280DD0A11ED7378000B5F9D8 /* Assets.xcassets */; };
 		280DD0A51ED7378000B5F9D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 280DD0A31ED7378000B5F9D8 /* LaunchScreen.storyboard */; };
 		280DD0B01ED7378000B5F9D8 /* TouchPadIOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 280DD0AF1ED7378000B5F9D8 /* TouchPadIOSTests.swift */; };
 		280DD0BB1ED7378000B5F9D8 /* TouchPadIOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 280DD0BA1ED7378000B5F9D8 /* TouchPadIOSUITests.swift */; };
+		2814ABB21ED822BD002178E9 /* TiltSensed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2814ABB11ED822BD002178E9 /* TiltSensed.swift */; };
+		2814ABB61ED822FE002178E9 /* PositionTouch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2814ABB51ED822FE002178E9 /* PositionTouch.swift */; };
+		2814ABB81ED82311002178E9 /* OptionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2814ABB71ED82311002178E9 /* OptionController.swift */; };
+		2863B13C1EE061B700A8D3A0 /* SocketService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2863B13B1EE061B700A8D3A0 /* SocketService.swift */; };
+		28F72E321F0122EC00A9051A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28F72E311F0122EC00A9051A /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,9 +39,7 @@
 /* Begin PBXFileReference section */
 		280DD0971ED7378000B5F9D8 /* TouchPadIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TouchPadIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		280DD09A1ED7378000B5F9D8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		280DD09C1ED7378000B5F9D8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		280DD09F1ED7378000B5F9D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		280DD0A11ED7378000B5F9D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		280DD0A41ED7378000B5F9D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		280DD0A61ED7378000B5F9D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		280DD0AB1ED7378000B5F9D8 /* TouchPadIOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TouchPadIOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -47,6 +48,11 @@
 		280DD0B61ED7378000B5F9D8 /* TouchPadIOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TouchPadIOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		280DD0BA1ED7378000B5F9D8 /* TouchPadIOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchPadIOSUITests.swift; sourceTree = "<group>"; };
 		280DD0BC1ED7378000B5F9D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2814ABB11ED822BD002178E9 /* TiltSensed.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TiltSensed.swift; path = ../TiltSensed.swift; sourceTree = "<group>"; };
+		2814ABB51ED822FE002178E9 /* PositionTouch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PositionTouch.swift; path = ../PositionTouch.swift; sourceTree = "<group>"; };
+		2814ABB71ED82311002178E9 /* OptionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OptionController.swift; path = ../OptionController.swift; sourceTree = "<group>"; };
+		2863B13B1EE061B700A8D3A0 /* SocketService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketService.swift; sourceTree = "<group>"; };
+		28F72E311F0122EC00A9051A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,11 +103,14 @@
 		280DD0991ED7378000B5F9D8 /* TouchPadIOS */ = {
 			isa = PBXGroup;
 			children = (
-				280DD09A1ED7378000B5F9D8 /* AppDelegate.swift */,
-				280DD09C1ED7378000B5F9D8 /* ViewController.swift */,
-				280DD09E1ED7378000B5F9D8 /* Main.storyboard */,
-				280DD0A11ED7378000B5F9D8 /* Assets.xcassets */,
+				2814ABB11ED822BD002178E9 /* TiltSensed.swift */,
+				2814ABB51ED822FE002178E9 /* PositionTouch.swift */,
+				2814ABB71ED82311002178E9 /* OptionController.swift */,
 				280DD0A31ED7378000B5F9D8 /* LaunchScreen.storyboard */,
+				280DD09A1ED7378000B5F9D8 /* AppDelegate.swift */,
+				2863B13B1EE061B700A8D3A0 /* SocketService.swift */,
+				28F72E311F0122EC00A9051A /* Assets.xcassets */,
+				280DD09E1ED7378000B5F9D8 /* Main.storyboard */,
 				280DD0A61ED7378000B5F9D8 /* Info.plist */,
 			);
 			path = TouchPadIOS;
@@ -193,6 +202,7 @@
 				TargetAttributes = {
 					280DD0961ED7378000B5F9D8 = {
 						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 3E92782S7B;
 						ProvisioningStyle = Automatic;
 					};
 					280DD0AA1ED7378000B5F9D8 = {
@@ -233,7 +243,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				280DD0A51ED7378000B5F9D8 /* LaunchScreen.storyboard in Resources */,
-				280DD0A21ED7378000B5F9D8 /* Assets.xcassets in Resources */,
+				28F72E321F0122EC00A9051A /* Assets.xcassets in Resources */,
 				280DD0A01ED7378000B5F9D8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,8 +269,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				280DD09D1ED7378000B5F9D8 /* ViewController.swift in Sources */,
+				2814ABB81ED82311002178E9 /* OptionController.swift in Sources */,
+				2863B13C1EE061B700A8D3A0 /* SocketService.swift in Sources */,
 				280DD09B1ED7378000B5F9D8 /* AppDelegate.swift in Sources */,
+				2814ABB61ED822FE002178E9 /* PositionTouch.swift in Sources */,
+				2814ABB21ED822BD002178E9 /* TiltSensed.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +425,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3E92782S7B;
 				INFOPLIST_FILE = TouchPadIOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Fabio-Mazzotta.TouchPadIOS";
@@ -424,6 +438,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3E92782S7B;
 				INFOPLIST_FILE = TouchPadIOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Fabio-Mazzotta.TouchPadIOS";
@@ -505,6 +520,7 @@
 				280DD0C11ED7378000B5F9D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		280DD0C21ED7378000B5F9D8 /* Build configuration list for PBXNativeTarget "TouchPadIOSTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +529,7 @@
 				280DD0C41ED7378000B5F9D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		280DD0C51ED7378000B5F9D8 /* Build configuration list for PBXNativeTarget "TouchPadIOSUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +538,7 @@
 				280DD0C71ED7378000B5F9D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

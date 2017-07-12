@@ -11,9 +11,11 @@ import CoreMotion
 
 class TiltMoviment: UIViewController {
     
+    
     @IBOutlet var lblConnessi: UILabel!
     var netWorkService:ConnectivityService!
     var moviment:CMMotionManager!
+   
     @IBOutlet var lblY: UILabel!
     @IBOutlet var lblX: UILabel!
     override func viewDidLoad() {
