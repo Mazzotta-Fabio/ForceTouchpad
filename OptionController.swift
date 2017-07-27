@@ -77,17 +77,17 @@ class OptionController: UIViewController,UITextFieldDelegate{
         let delegate=UIApplication.shared.delegate as! AppDelegate
         let dictionary=delegate.leggiDati()
         
-        txtIP.text=dictionary["IPAddress"] as? String
+        txtIP.text=dictionary["IPAddress"] as? String ?? "10.0.0.1"
         
-        let width=dictionary["Width"] as! Double
-        let height=dictionary["Height"] as! Double
-        let forceLight=dictionary["LightPressure"] as! Double
-        let forceStrong=dictionary["StrongPressure"] as! Double
+        let width=dictionary["Width"] as? Double ?? 300
+        let height=dictionary["Height"] as? Double ?? 400
+        let forceLight=dictionary["LightPressure"] as? Double ?? 0.25
+        let forceStrong=dictionary["StrongPressure"] as? Double ?? 0.5
         
-        let xminrot=dictionary["XMinRot"] as! Double
-        let xmaxrot=dictionary["XMaxRot"] as! Double
-        let yminrot=dictionary["YMinRot"] as! Double
-        let ymaxrot=dictionary["YMaxRot"] as! Double
+        let xminrot=dictionary["XMinRot"] as? Double ?? 0
+        let xmaxrot=dictionary["XMaxRot"] as? Double ?? 1
+        let yminrot=dictionary["YMinRot"] as? Double ?? 0
+        let ymaxrot=dictionary["YMaxRot"] as? Double ?? 1
         
         
         txtXmaxRot.text=String(xmaxrot)
@@ -95,7 +95,7 @@ class OptionController: UIViewController,UITextFieldDelegate{
         txtYMaxRot.text=String(ymaxrot)
         txtYMinRot.text=String(yminrot)
         
-        txtWidth.text=String(width)
+        txtWidth.text=String(describing: width)
         txtHeight.text=String(height)
         
         txtLightForce.text=String(forceLight)

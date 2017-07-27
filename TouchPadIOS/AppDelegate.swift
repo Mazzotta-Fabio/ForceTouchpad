@@ -147,7 +147,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func leggiDati()->NSMutableDictionary{
         print("leggendo")
         let myDictionary=NSMutableDictionary(contentsOf: urlFile)
-        return myDictionary!
+        return myDictionary ?? ["":""]
     }
 }
 
