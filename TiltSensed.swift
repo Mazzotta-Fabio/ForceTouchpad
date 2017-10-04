@@ -66,9 +66,19 @@ class TiltSensed: UIViewController {
                             flag="N"
                         }
                         let mess=String(x) + " " + String(y) + " " + flag + "\n"
-                        self.socket.scriviSulSocket(buf: mess)
-                        precX=x
-                        precY=y
+                        if(!(self.socket.scriviSulSocket(buf: mess))){
+                            self.moviment.stopDeviceMotionUpdates()
+                            let alertController: UIAlertController = UIAlertController(title: "Warning!", message: "Unable to connect to other device", preferredStyle: .alert)
+                            let action = UIAlertAction(title: "OK", style: .default) { action in
+                                //self.performSegue(withIdentifier: "BackMenuTilt", sender: self)
+                            }
+                            alertController.addAction(action)
+                            self.present(alertController, animated: true, completion: nil)
+                        }
+                        else{
+                            precX=x
+                            precY=y
+                        }
                     }
                 }
             }

@@ -44,11 +44,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         print("Sto andando all'inizio")
         self.urlFile=localizzaFile()
-        if(FileManager.default.fileExists(atPath: urlFile.absoluteString)){
-            print("sono in scrivi")
-            scriviDati(height: 667, width: 375, lightPressure: 0.25, strongPressure: 0.5, address: "172.19.0.189", xminrot: 0.15, xmaxrot: 0.80, yminrot: 0.25, ymaxrot: 0.5)
+        let myDict=leggiDati()
+        if(myDict.count==0){
+            if(!(FileManager.default.fileExists(atPath: urlFile.absoluteString))){
+                scriviDati(height: 400, width: 300, lightPressure: 0.25, strongPressure: 0.5, address: "127.0.0.1", xminrot: 0, xmaxrot: 1, yminrot: 0, ymaxrot: 1)
+            }
         }
-        print(self.urlFile.absoluteString)
         return true
     }
 
@@ -147,7 +148,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func leggiDati()->NSMutableDictionary{
         print("leggendo")
         let myDictionary=NSMutableDictionary(contentsOf: urlFile)
-        return myDictionary ?? ["":""]
+        return myDictionary ?? [:]
     }
 }
 

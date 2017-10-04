@@ -77,29 +77,30 @@ class OptionController: UIViewController,UITextFieldDelegate{
         let delegate=UIApplication.shared.delegate as! AppDelegate
         let dictionary=delegate.leggiDati()
         
-        txtIP.text=dictionary["IPAddress"] as? String ?? "10.0.0.1"
+        txtIP.text=dictionary["IPAddress"] as? String
         
-        let width=dictionary["Width"] as? Double ?? 300
-        let height=dictionary["Height"] as? Double ?? 400
-        let forceLight=dictionary["LightPressure"] as? Double ?? 0.25
-        let forceStrong=dictionary["StrongPressure"] as? Double ?? 0.5
+        let width=dictionary["Width"] as? Double
+        let height=dictionary["Height"] as? Double
+        let forceLight=dictionary["LightPressure"] as? Double
+        let forceStrong=dictionary["StrongPressure"] as? Double
         
-        let xminrot=dictionary["XMinRot"] as? Double ?? 0
-        let xmaxrot=dictionary["XMaxRot"] as? Double ?? 1
-        let yminrot=dictionary["YMinRot"] as? Double ?? 0
-        let ymaxrot=dictionary["YMaxRot"] as? Double ?? 1
+        let xminrot=dictionary["XMinRot"] as? Double
+        let xmaxrot=dictionary["XMaxRot"] as? Double
+        let yminrot=dictionary["YMinRot"] as? Double
+        let ymaxrot=dictionary["YMaxRot"] as? Double
         
         
-        txtXmaxRot.text=String(xmaxrot)
-        txtXMinRot.text=String(xminrot)
-        txtYMaxRot.text=String(ymaxrot)
-        txtYMinRot.text=String(yminrot)
         
-        txtWidth.text=String(describing: width)
-        txtHeight.text=String(height)
+        txtXmaxRot.text=String(describing: xmaxrot!)
+        txtXMinRot.text=String(describing: xminrot!)
+        txtYMaxRot.text=String(describing: ymaxrot!)
+        txtYMinRot.text=String(describing: yminrot!)
         
-        txtLightForce.text=String(forceLight)
-        txtStrongForce.text=String(forceStrong)
+        txtWidth.text=String(describing: width!)
+        txtHeight.text=String(describing: height!)
+        
+        txtLightForce.text=String(describing: forceLight!)
+        txtStrongForce.text=String(describing: forceStrong!)
         
         NotificationCenter.default.addObserver(self, selector: #selector(OptionController.keyboardWillShow), name: NSNotification.Name.UIKeyboardWillShow, object: nil)
         

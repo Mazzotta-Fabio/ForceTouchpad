@@ -29,14 +29,21 @@ class SocketService: NSObject {
         self.writeStream!.open()
     }
     
-    func scriviSulSocket(buf: String) {
+    func scriviSulSocket(buf: String)-> Bool{
         let lenght=buf.characters.count as CFIndex
-        CFWriteStreamWrite(writeStream, buf, lenght)
+        if(CFWriteStreamCanAcceptBytes(writeStream)){
+            CFWriteStreamWrite(writeStream, buf, lenght)
+            return true
+        }
+        else{
+            return false
+        }
     }
     
     func closeSocket(fine: String){
-        self.scriviSulSocket(buf: fine)
-        CFWriteStreamClose(writeStream)
-        CFReadStreamClose(readStream)
+        if(self.scriviSulSocket(buf: fine)){
+            CFWriteStreamClose(writeStream)
+            CFReadStreamClose(readStream)
+        }
     }
 }
