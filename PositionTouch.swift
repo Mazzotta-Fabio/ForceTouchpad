@@ -89,17 +89,7 @@ class PositionTouch: UIViewController {
                         str="S"
                     }
                     let mess = String(x) + " " + String(y) + " " + str + "\n"
-                    if(self.connectivity.isAvailableSocket()){
-                        self.connectivity.scriviSulSocket(buf: mess)
-                    }
-                    else{
-                        let alertController: UIAlertController = UIAlertController(title: "Warning!", message: "Unable to connect to other device", preferredStyle: .alert)
-                        let action = UIAlertAction(title: "OK", style: .default) { action in
-                            // self.performSegue(withIdentifier: "BackMenuTouch", sender: self)
-                        }
-                        alertController.addAction(action)
-                        self.present(alertController, animated: true, completion: nil)
-                    }
+                    self.connectivity.scriviSulSocket(buf: mess)
                 }
             }
         }
@@ -115,17 +105,7 @@ class PositionTouch: UIViewController {
                     x=Double(point.x)/self.width
                     y=Double(point.y)/self.height
                     let mess = String(x) + " " + String(y) + " E\n"
-                    if(self.connectivity.isAvailableSocket()){
-                        self.connectivity.scriviSulSocket(buf: mess)
-                    }
-                    else{
-                        let alertController: UIAlertController = UIAlertController(title: "Warning!", message: "Unable to connect to other device", preferredStyle: .alert)
-                        let action = UIAlertAction(title: "OK", style: .default) { action in
-                            // self.performSegue(withIdentifier: "BackMenuTouch", sender: self)
-                        }
-                        alertController.addAction(action)
-                        self.present(alertController, animated: true, completion: nil)
-                    }
+                    self.connectivity.scriviSulSocket(buf: mess)
                 }
             }
         }
@@ -142,17 +122,7 @@ class PositionTouch: UIViewController {
                     x=Double(point.x)/self.width
                     y=Double(point.y)/self.height
                     let mess = String(x) + " " + String(y) + " B\n"
-                    if(self.connectivity.isAvailableSocket()){
-                        self.connectivity.scriviSulSocket(buf: mess)
-                    }
-                    else{
-                        let alertController: UIAlertController = UIAlertController(title: "Warning!", message: "Unable to connect to other device", preferredStyle: .alert)
-                        let action = UIAlertAction(title: "OK", style: .default) { action in
-                            // self.performSegue(withIdentifier: "BackMenuTouch", sender: self)
-                        }
-                        alertController.addAction(action)
-                        self.present(alertController, animated: true, completion: nil)
-                    }
+                    self.connectivity.scriviSulSocket(buf: mess)
                 }
             }
         }
@@ -161,5 +131,5 @@ class PositionTouch: UIViewController {
     override func viewWillDisappear(_ animated: Bool) {
         super.viewWillDisappear(animated)
         connectivity.closeSocket(fine: "0")
-    }    
+    }
 }

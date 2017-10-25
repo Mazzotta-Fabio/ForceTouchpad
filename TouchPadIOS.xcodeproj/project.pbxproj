@@ -105,9 +105,9 @@
 			children = (
 				2814ABB11ED822BD002178E9 /* TiltSensed.swift */,
 				2814ABB51ED822FE002178E9 /* PositionTouch.swift */,
-				2814ABB71ED82311002178E9 /* OptionController.swift */,
 				280DD0A31ED7378000B5F9D8 /* LaunchScreen.storyboard */,
 				280DD09A1ED7378000B5F9D8 /* AppDelegate.swift */,
+				2814ABB71ED82311002178E9 /* OptionController.swift */,
 				2863B13B1EE061B700A8D3A0 /* SocketService.swift */,
 				28F72E311F0122EC00A9051A /* Assets.xcassets */,
 				280DD09E1ED7378000B5F9D8 /* Main.storyboard */,
@@ -212,6 +212,7 @@
 					};
 					280DD0B51ED7378000B5F9D8 = {
 						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 7Z3GV656FH;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 280DD0961ED7378000B5F9D8;
 					};
@@ -479,6 +480,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 7Z3GV656FH;
 				INFOPLIST_FILE = TouchPadIOSUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Fabio-Mazzotta.TouchPadIOSUITests";
@@ -492,6 +494,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 7Z3GV656FH;
 				INFOPLIST_FILE = TouchPadIOSUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Fabio-Mazzotta.TouchPadIOSUITests";
