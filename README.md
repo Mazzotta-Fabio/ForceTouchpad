@@ -32,10 +32,12 @@ Quindi l'applicazione necessita di una manutenzione che può riguardare:
 
     -aggiungere nuove funzionalità che consentano di gestire le operazioni di controllo dei dispositivi con cui comunica;
 
-    -utilizzare una nuova linea di connessione come ad esempio la connessione dati;
+    -aggiungere una nuova linea di connessione come ad esempio la connessione dati;
 
     -aggiungere una tastiera che consente consente l'inserimento del testo sul dispositivo con cui comunica;
 
     -correzione di eventuali bug presenti nell'applicazione;
 
     -aggiunta di nuove impostazioni di funzionamento con eventuali modifiche all'interfaccia.
+    
+   
